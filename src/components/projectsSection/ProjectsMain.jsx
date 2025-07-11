@@ -8,29 +8,29 @@ const projects = [
     name: "Book-shop",
     year: "Mar2024",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
-    link: "#",
+    image: "../../../public/images/Book-store.png",
+    link: "https://book-store-e72a5.web.app",
   },
   {
     name: "Resturant-mangment",
     year: "Sept2024",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
-    link: "#",
+    image: "../../../public/images/FoodBuzz.png",
+    link: "https://restaurant-manag.web.app",
   },
   {
     name: "parcel-mangment",
     year: "Jan2023",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
-    link: "#",
+    image: "../../../public/images/parcel.png",
+    link: "https://parcel-management-44e15.web.app",
   },
   {
     name: "versity-project",
     year: "May2024",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
-    link: "#",
+    image: "../../../public/images/versity.png",
+    link: "https://vagabond-yoke.surge.sh",
   },
 ];
 
@@ -54,6 +54,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}
