@@ -18,9 +18,9 @@ const ContactForm = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm("service_ko3hmpt", "template_ahbmmqd", form.current, {
-        publicKey: "I6HAT5mUZH7WHabGE",
+     emailjs
+      .sendForm("service_2a1rb3p", "template_rumm6ry", form.current, {
+        publicKey: "cUFjV0QLMpIhegHHF",
       })
       .then(
         () => {
